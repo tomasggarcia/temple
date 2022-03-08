@@ -1,0 +1,73 @@
+iframe {
+    max-width: 50%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+
+#back {
+    max-width: 100%;
+}
+
+#desc {
+    max-width: 50%;
+}
+
+#quienes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#obras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 1rem;
+}
+
+#planta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#planta ul {
+    max-width: 50%;
+}
+
+#valores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#valores li {
+    display: flex;
+    align-items: center;
+}
+
+#valores li h2 {
+    padding: 1rem;
+}
+
+#contacto {
+    flex-direction: row;
+}
+
+#form {
+    flex-direction: row;
+}
