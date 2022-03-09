@@ -1,6 +1,4 @@
-iframe {
-    max-width: 50%;
-}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -32,10 +30,10 @@ iframe {
 }
 
 #obras {
+    max-width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 90%;
     margin: 1rem;
 }
 
@@ -65,9 +63,39 @@ iframe {
 }
 
 #contacto {
-    flex-direction: row;
+    margin-left: 3rem;
+    width: 100%;
+    display: flex;
+}
+.column {
+    width: 50%;
+}
+  
+iframe {
+    max-width: 90%;
 }
 
-#form {
+form {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#formItem {
+    margin: 0.3rem;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+#divTittle {
+    width: 90%;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+#soluciones {
+    max-width: 50px;
 }

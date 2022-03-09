@@ -3,16 +3,23 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/bd3ebe9873.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="container">
 
-
-    <h1>Temple</h1>
-    <h2>SOLUCIONES METALURGICAS</h2>
-    <a href="#" class="fa fa-instagram"></a>
-    <img id='back' src="/assets/background1.PNG" alt="temple">
-    <h2>Quienes somoss</h2>
+    <div id="divTittle">
+        <h1>Temple</h1>
+        <h2 id="soluciones">SOLUCIONES METALURGICAS</h2>
+        <div id="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <span>Leguizamón Onesimo, Neuquén</span>
+        </div>
+    </div>
+        <img id='back' src="/assets/background1.PNG" alt="temple">
+    <h2>Quienes somos</h2>
     <div id="quienes">
         <p id='desc'>
             Somos una empresa que transforma un material noble y duradero como lo es el metal, en objetos de necesidad para la industria metalúrgica.
@@ -26,9 +33,7 @@
         </ul>
     </div>
     <h2>Servicios y Productos</h2>
-    <div class="obras">
-        <img src="/assets/obras.png" alt="obras">
-    </div>
+    <img id='back' src="/assets/obras.png" alt="obras">
     <h2>Nuestra Historia</h2>
     <p>
         Alberto Pesiney en el año 1976 funda Hierros Neuquén, dedicándose a la venta de productos metalúrgicos, siendo pioneros en el rubro por muchos años dentro de la Patagonia.
@@ -96,27 +101,29 @@
 
     <h1>Contacto</h1>
     <div id="contacto">
-        <div>
-
+        <div class="column">
             <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.4684281274226!2d-68.0701876846888!3d-38.958970679561155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33cb198c2e33%3A0x465ceb8aa24cbb5d!2sLeguizam%C3%B3n%20Onesimo%20345%2C%20Q8302EBG%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1646781466625!5m2!1ses!2sar"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             >
-        </div>
-        <div id="form">    
             </iframe>
+        </div>
+        <div class="column">    
             <h4>Excribinos</h4>
-            <span>+54 9 229 4425942</span>
-            <span>+54 9 2995507220</span>
-            <span>Ventas@templebienhecho.com.ar</span>
-            <span>Leguizamón Onésimo 345, Neuquén</span>
-            <span>@templebienhecho</span>
-            <span>@templebienhecho</span>
+            <p>+54 9 229 4425942</p>
+            <p>+54 9 2995507220</p>
+            <p>Ventas@templebienhecho.com.ar</p>
+            <p>Leguizamón Onésimo 345, Neuquén</p>
+            <p>@templebienhecho</p>
+            <p>@templebienhecho</p>
+            <form action="">
+                <input id="formItem" type="text" placeholder="Nombre">
+                <input id="formItem" type="email" placeholder="Email">
+                <textarea id="formItem">
+            </form>
         </div>
     </div>
-    <form action="">
-        <input type="text">
-    </form>
+
 
 </div>
 </body>
